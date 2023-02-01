@@ -3,7 +3,7 @@ const refs = {
   inputLabelEl: document.querySelector('#text'),
 };
 
-refs.inputRangeEl.addEventListener('change', onRangeChange);
+refs.inputRangeEl.addEventListener('input', onRangeChange);
 
 function onRangeChange(event) {
   const rangeValue = event.currentTarget.value;

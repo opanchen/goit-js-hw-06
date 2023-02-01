@@ -23,7 +23,8 @@ function onSubmit(event) {
     password: password.value,
   };
 
-  console.log(`Email: ${dataUserInfo.email} \nPassword: ${dataUserInfo.password}`);
+  // console.log(`Email: ${dataUserInfo.email} \nPassword: ${dataUserInfo.password}`);
+  console.log(dataUserInfo);
 
   event.currentTarget.reset();
 }
